@@ -1,15 +1,13 @@
-import os
-
+# Import libriaries/modules
 from cs50 import SQL
-from flask import Flask, flash, redirect, render_template, request, session
+from flask import Flask, redirect, render_template, request, session
 from flask_session import Session
-from tempfile import mkdtemp
 from werkzeug.security import check_password_hash, generate_password_hash
-import datetime
 from functools import wraps
 
 
 # __name__ just refers to the name of the current file
+# Initialize the app
 app = Flask(__name__)
 
 # Ensure templates are auto-reloaded
@@ -222,5 +220,6 @@ def remove():
     return redirect("/summary")
 
 
-
-
+if __name__ == '__main__':
+    # automatically reload on code changes, provides detailed error messages with stack traces
+    app.run(debug=True)

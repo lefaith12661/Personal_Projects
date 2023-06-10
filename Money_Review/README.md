@@ -4,7 +4,7 @@
 
 ### DESCRIPTION
 ------------
-$ Review is a web-based application using HTML, CSS, JavaScript, Python, and SQL. A tool that helps users calculate and manage their weekly spending all in one place.
+$ Review is a web-based application using HTML, CSS, JavaScript, Python, and SQL. A tool that helps users calculate and manage their weekly spendings all in one place.
 
 This project was inspired by my roommate and I's weekly spending review. It was a process that took a lot of our time due to the use of different tools and web pages. As the result, I wanted to build this web-based application to help us and others increase efficiency and reduce the task's time.
 
@@ -46,7 +46,7 @@ When the application is ran, users will be required to register/log in with user
 
 Once users are in, they could navigate to the Budget tab to start adding their weekly spending budget under each of the five given categories. For the sake of consistency and sorting in the Summary Page, users are only given five common categories such as grocery, eating out, entertainment, pet supply, and other. This will then populate into the Summary Page for users to reference later.
 
-Next, users could go to the Calculate Page to start adding their spending. There is no limit to the number of spending items users get to add. The sum for each category will then populate in a table underneath as users continue to add to the table.
+Next, users could go to the Calculate Page to start adding their spendings. There is no limit to the number of spending items users get to add. The sum for each category will then populate in a table underneath as users continue to add to the table.
 
 As users are adding items to the Budget Page and the Calculate Page, these data are saved in the SQLite database and are populating in the Summary Page simultaneously. This page is designed to help users look at everything they inputed, as well as removing any items they no longer wanted.
 
@@ -89,7 +89,7 @@ This first thing in this route is to obtain the user ID. This route requires use
 
 This first thing in this route is to obtain the user ID. This route requires users to fill out the date, category, description, and amount of each spending item. Once they click submit, `db.execute` will run and `INSERT` the these items uniquely to the users into a database called `spendings`.
 
-Each time users submit their spending, `db.execute` will run and `SELECT` the `SUM` of each category and display them in a table on the website.
+Each time users submit their spendings, `db.execute` will run and `SELECT` the `SUM` of each category and display them in a table on the website.
 
 <br />
 
