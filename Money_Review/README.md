@@ -9,6 +9,9 @@ Money Review is a web-based application that combines HTML, CSS, JavaScript, Pyt
 
 This project was inspired by the weekly spending review my roommate and I conducted to manage our expenses. We realized that the process was consuming a significant amount of our time as we had to rely on various tools and visit multiple web pages. As a result, I embarked on creating a web-based application to streamline the process and boost efficiency. The goal for this project is to assist not only ourselves but also others in optimizing their time and enhancing efficiency when managing their expenses.
 
+
+**Below is a preview image of the website's main page:**
+
 <img src="./static/webpage.jpg" alt="homepage" />
 <br />
 
