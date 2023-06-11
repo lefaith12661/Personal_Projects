@@ -8,14 +8,9 @@ I am a passionate self-taught developer who loves to dive into new technologies 
 
 ## Project List
 
-- **Project 1 - [Money Review](https://github.com/lefaith12661/Personal_Projects/tree/main/Money_Review)**: A web-based application using HTML, CSS, JavaScript, Python, and SQL. A tool that helps users calculate and manage their weekly spendings all in one place.
-
-## Project Links
-
-- **Project 1 - [Money Review](https://github.com/lefaith12661/Personal_Projects/tree/main/Money_Review)**
-- Live Web-App Link: https://money-review-app.onrender.com
-- Project Demo Link: https://www.youtube.com/watch?v=_W64huDytzk&ab_channel=FaithLe
-
+- **[Money Review](https://github.com/lefaith12661/Personal_Projects/tree/main/Money_Review)**: A web-based application that combines HTML, CSS, JavaScript, Python, and SQL to provide users with a tool for calculating and managing their weekly spendings in a centralized platform.
+    - [Project Demo](https://www.youtube.com/watch?v=_W64huDytzk&ab_channel=FaithLe)
+    - [Try out the app!](https://money-review-app.onrender.com)
 
 ## Getting Started
 
