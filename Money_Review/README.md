@@ -1,10 +1,11 @@
-# $ REVIEW
-#### Video Demo:  <https://www.youtube.com/watch?v=_W64huDytzk>
+# Money REVIEW
+#### Demo:  <https://www.youtube.com/watch?v=_W64huDytzk>
+#### Live App:  <https://money-review-app.onrender.com>
 <br />
 
 ### DESCRIPTION
 ------------
-$ Review is a web-based application using HTML, CSS, JavaScript, Python, and SQL. A tool that helps users calculate and manage their weekly spendings all in one place.
+Money Review is A web-based application that combines HTML, CSS, JavaScript, Python, and SQL to provide users with a tool for calculating and managing their weekly spendings in a centralized platform.
 
 This project was inspired by my roommate and I's weekly spending review. It was a process that took a lot of our time due to the use of different tools and web pages. As the result, I wanted to build this web-based application to help us and others increase efficiency and reduce the task's time.
 
