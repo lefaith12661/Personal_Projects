@@ -8,7 +8,7 @@ I am a passionate self-taught developer who loves to dive into new technologies 
 
 ## Project List
 
-- **Project 1 - Money Review**: A web-based application using HTML, CSS, JavaScript, Python, and SQL. A tool that helps users calculate and manage their weekly spendings all in one place.
+- **Project 1 - [Money Review}(https://www.linkedin.com/in/faithle/)**: A web-based application using HTML, CSS, JavaScript, Python, and SQL. A tool that helps users calculate and manage their weekly spendings all in one place.
 
 ## Getting Started
 
