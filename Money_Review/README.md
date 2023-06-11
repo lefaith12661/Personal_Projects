@@ -1,5 +1,5 @@
 # Money REVIEW
-#### Demo:  <https://www.youtube.com/watch?v=_W64huDytzk>
+#### Demo:  <https://www.youtube.com/watch?v=_W64huDytzk&ab_channel=FaithLe>
 #### Live App:  <https://money-review-app.onrender.com>
 <br />
 
