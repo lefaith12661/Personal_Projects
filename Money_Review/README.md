@@ -3,7 +3,7 @@
 #### Live App:  <https://money-review-app.onrender.com>
 <br>
 
-### Table of Contents
+### TABLE OF CONTENTS
 ------------
 - [Description](#description)
 - [Features](#features)
