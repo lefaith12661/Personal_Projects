@@ -1,7 +1,17 @@
-# Money REVIEW
+# MONEY REVIEW
 #### Demo:  <https://www.youtube.com/watch?v=_W64huDytzk&ab_channel=FaithLe>
 #### Live App:  <https://money-review-app.onrender.com>
-<br />
+<br>
+
+### Table of Contents
+------------
+- [Description](#description)
+- [Features](#features)
+- [Executing Program](#executing-program)
+- [Navigating the Application](#navigating-the-application)
+- [Understanding the Files](#understanding-the-files)
+- [Author](#author)
+<br>
 
 ### DESCRIPTION
 ------------
@@ -13,7 +23,7 @@ This project was inspired by the weekly spending review my roommate and I conduc
 **Below is a preview image of the website's main page:**
 
 <img src="./static/webpage.jpg" alt="homepage" />
-<br />
+<br>
 
 ### FEATURES
 ------------
@@ -23,7 +33,7 @@ This project was inspired by the weekly spending review my roommate and I conduc
 * Ability to input unlimited spending items while seeing the total amount of each category populates
 * A Summary Page that shows a simple yet detailed summary of each spending item that users inputed with a total budget and total amount spent on the top left corner
 
-<br />
+<br>
 
 ### EXECUTING PROGRAM
 ------------
@@ -48,7 +58,7 @@ This project was inspired by the weekly spending review my roommate and I conduc
   ```
   * Once you're in sqlite3, run the command '.schema' to see what's inside the database
 
-<br />
+<br>
 
 ### NAVIGATING THE APPLICATION
 ------------
@@ -60,12 +70,12 @@ Next, users could go to the Calculate Page to start adding their spendings. Ther
 
 As users are adding items to the Budget Page and the Calculate Page, these data are saved in the SQLite database and are populating in the Summary Page simultaneously. This page is designed to help users look at everything they inputed, as well as removing any items they no longer wanted.
 
-<br />
+<br>
 
 ### UNDERSTANDING THE FILES
 ------------
 ## **`app.py`**
-<br />
+<br>
 
 The first thing you will see in this file are a bunch of imports that are helpful in later code. One of these imports is the Flask framework that is used in Python to make writing code simplier.
 
@@ -73,7 +83,7 @@ The next few lines of code show configuring of Flask and ensuring that the templ
 
 The rest of the file contains nine routes that tell Flask when to call each function. Almost all of the routes support GET and POST method, which is a way to transfer data from users to server in HTTP protocol.
 
-<br />
+<br>
 
 **Login**, **Logout**, **Register**
 
@@ -81,19 +91,19 @@ These three routes that do not have `login_required` function. Let's first take 
 
 Moving on the register route. This route requires users to input a username, password, and confirmation password to sign up. It will render an error page called `error.html` if username/password has already been taken, left blank, or password and confirmation password do not match. In this function, it called the `generate_password_hash()` function to add a layer of security for the users. Once registered via POST, `db.execute` will INSERT the hashed password and username into a database called `users`.
 
-<br />
+<br>
 
 **Home**, **Index**
 
 The next two routes are solely directing users to the home page. The `home` function is called when users clicked on the home icon which will navigate them to the home page. The `index` function is the default page when users are logged in.
 
-<br />
+<br>
 
 **Budget**
 
 This first thing in this route is to obtain the user ID. This route requires users to input their weekly budget goals. Once they clicked done, `db.execute` will run and `UPDATE` the budget uniquely to the users into a database called `spendings`.
 
-<br />
+<br>
 
 **Calculate**
 
@@ -101,73 +111,73 @@ This first thing in this route is to obtain the user ID. This route requires use
 
 Each time users submit their spendings, `db.execute` will run and `SELECT` the `SUM` of each category and display them in a table on the website.
 
-<br />
+<br>
 
 **Summary**
 
 This first thing in this route is to obtain the user ID. This route does not require user inputs. `db.execute` will run and `SELECT` information to display on the page.
 
-<br />
+<br>
 
 **Remove**
 
 This route does not require user inputs. `db.execute` will run and `REMOVE` items from `spendings`.
 
-<br />
+<br>
 
 ## **`static/`**
-<br />
+<br>
 
 This folder contains CSS files and picture files for HTML templates.
 
-<br />
+<br>
 
 ## **`templates/`**
-<br />
+<br>
 
 This folder contains eight HTML files.
 
-<br />
+<br>
 
 **Login, Register, Home**
 
 Both are simply HTML forms with Bootstrap framework for template designs.
 
-<br />
+<br>
 
 **Error**
 
 Recall register and login routes in `app.py`, two arguments were passed into `render_template` which are `errors.html` and a variable called `message`. In `errors.html`, we were able to call `message` using Jinja.
 
-<br />
+<br>
 
 **Layout**
 
 This template has the navigation bar that all the other templates use. It uses Jinja's template inheritance to build a base layout that has all the common elements, then inserts blocks that child templates can add to the layout. The navigation bar is also compatible with mobile devices.
 
-<br />
+<br>
 
 **Budget**
 
 In this template, JavaScript was used to calculate the total budget amount and to create a pop-up alert letting users know that their inputs have been saved.
 
-<br />
+<br>
 
 **Calculate**
 
 In this template, JavaScript was used to create a pop-up alert letting users know that their inputs have been saved.
 
-<br />
+<br>
 
 **Summary**
 
 This template has a `remove` button where users can remove any items that they changed their minds on.
 
-<br />
+<br>
 
 ### AUTHOR
 ------------
 
-Faith Le <br />
-Email: lefaith12661@gmail.com <br />
+Faith Le <br>
+Email: lefaith12661@gmail.com <br>
 Linkedin: [@Faith Le](https://www.linkedin.com/in/faithle/)
