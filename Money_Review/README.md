@@ -28,7 +28,7 @@ This project was inspired by the weekly spending review my roommate and I conduc
 ### EXECUTING PROGRAM
 ------------
 
-#### Install the necessary modules and packages
+#### Install the Required Packages/Libraries
 * Before executing the program, be sure to install the requirement.txt file. This file contains modules and packages that need to be installed for the project to run properly. This can be done with the following command:
   ```
   Final_Project/ $ pip install -r requirements.txt
