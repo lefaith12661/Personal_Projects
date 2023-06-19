@@ -28,9 +28,15 @@ This project was inspired by the weekly spending review my roommate and I conduc
 ### EXECUTING PROGRAM
 ------------
 
+#### Install the necessary modules and packages
+* Before executing the program, be sure to install the requirement.txt file. This file contains modules and packages that need to be installed for the project to run properly. This can be done with the following command:
+  ```
+  Final_Project/ $ pip install -r requirements.txt
+  ```
+
 #### Running the Program With Flask
 
-* Make sure you're in the 'Final_Project' directory before running the flask command. After running the command, hold 'Ctrl' while clicking on the link to view the website.
+* Make sure you are in the 'Final_Project' directory before running the flask command. After running the command, hold 'Ctrl' while clicking on the link to view the website.
   ```
   Final_Project/ $ flask run
   ```
