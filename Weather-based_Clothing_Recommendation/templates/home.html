@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="static/home.css">
+</head>
+
+<body>
+    <p id="weather">Weather-based Clothing Recommendation</p>
+    <img src="static/weather.jpg">
+    <br>
+    <form action="/result" method="post">
+        <p id="city">Which city do you live in?</p>
+        <br>
+        <input type="text" id="city" name="city_input" required>
+        <br>
+        <input type="submit" value="RESULT" id="result">
+    </form>
+</body>
+
+</html>

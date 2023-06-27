@@ -1,0 +1,54 @@
+body {
+  background-color: SteelBlue;
+  text-align: center;
+}
+
+p {
+  color: white;
+}
+
+#weather {
+  font-family: Lucida Handwriting;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 50px 0 0 0;
+}
+
+#city {
+  font-size: 1.5em;
+  font-family: Courier;
+  margin: 20px 0 10px 0;
+}
+
+img {
+  margin: 40px 0 10px 0;
+  width: 500px;
+  border-radius: 90%;
+}
+
+input {
+  width: 360px;
+  height: 50px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: Courier;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+input:focus {
+  border: solid 5px DarkTurquoise;
+  outline: none;
+}
+
+#result {
+  background-color: DarkTurquoise;
+  color: white;
+  width: 200px;
+}
+
+#result:hover {
+  background-color: Orange;
+  cursor: pointer;
+}

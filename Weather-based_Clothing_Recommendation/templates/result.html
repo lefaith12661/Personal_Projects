@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Result</title>
+    <link rel="stylesheet" href="static/result.css">
+</head>
+
+<body>
+    <br>
+        <p id="temp">Current Temperature in {{ city }}: {{ temperature_in_C }}°C or {{ temperature_in_F }}°F</p>
+        <p id="text-rec">Clothes Recommendation: <br> {{ recommendation }} </p>
+        <br>
+    <div class = "img">
+        <!-- display images on a template depending on temperature -->
+        {% if temperature_in_F <= 40 %}
+            <img src="/static/1.jpg" alt="Image 1">
+        {% elif 41 <= temperature_in_F <= 50 %}
+            <img src="/static/2.jpg" alt="Image 2">
+        {% elif 51 <= temperature_in_F <= 60 %}
+            <img src="/static/3.jpg" alt="Image 3">
+        {% elif 61 <= temperature_in_F <= 70 %}
+            <img src="/static/4.jpg" alt="Image 4">
+        {% elif 71 <= temperature_in_F <= 80 %}
+            <img src="/static/5.jpg" alt="Image 5">
+        {% else %}
+            <img src="/static/6.jpg" alt="Image 6">
+        {% endif %}
+    </div>
+</body>
+
+</html>

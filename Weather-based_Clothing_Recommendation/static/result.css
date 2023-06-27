@@ -1,0 +1,31 @@
+body {
+    background-color: SteelBlue;
+    text-align: center;
+  }
+
+  p {
+    color: white;
+    font-family: Georgia;
+    margin: 20px;
+  }
+
+  #temp {
+    position: relative;
+    font-weight: bold;
+    font-size: 2.5em;
+  }
+
+  #text-rec {
+    position: absolute;
+    text-align: left;
+    font-size: 1.5em;
+  }
+
+  .img {
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
