@@ -1,7 +1,6 @@
 # import modules/libraries
 from flask import Flask, render_template, request
 import math
-from dotenv import load_dotenv
 import requests
 import re
 
@@ -12,9 +11,6 @@ def create_app():
 
     # Ensure templates are auto-reloaded
     app.config["TEMPLATES_AUTO_RELOAD"] = True
-
-    # Load environment variables from .env file to set the environment FLASK_APP=project.py
-    load_dotenv()
 
     # main function that calls the other functions
     def main():

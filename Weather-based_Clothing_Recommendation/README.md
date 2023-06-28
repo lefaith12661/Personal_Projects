@@ -69,12 +69,10 @@ Once a valid city is inputted, users will be directed to a results page displayi
 ### UNDERSTANDING THE FILES
 ------------
 
-## **`project.py`**
+## **`app.py`**
 <br>
 
 The first thing you will notice in this file is a series of import statements that play a crucial role in the subsequent code. Among these imports is the Flask framework, which simplifies the process of writing Python code by providing a comprehensive set of tools and utilities.
-
-In addition to the import statements, the code includes the `load_dotenv()` function. This function is used to load environment variables from a `.env` file, which allows for setting the FLASK_APP environment variable to `project.py`. This step is necessary because the program is not named `app.py` as conventionally expected.
 
 Furthermore, the code includes configuration settings specific to Flask. These configurations enable automatic template reloading, ensuring that any changes made to the templates are immediately reflected without the need to manually restart the server. This feature significantly enhances the development process and promotes a seamless workflow by eliminating repetitive server restarts after each modification.
 
@@ -147,7 +145,7 @@ The `templates` folder within the project directory holds a collection of three 
 
 **Error**
 
-In the project.py file, there is a function called `result` that renders the `error.html` template and passes a variable called `message` as an argument. Inside the `error.html` template, the value of `message` can be accessed and displayed using the Jinja templating engine. Recall that we defined the error `message` in the beginning of the code.
+In the app.py file, there is a function called `result` that renders the `error.html` template and passes a variable called `message` as an argument. Inside the `error.html` template, the value of `message` can be accessed and displayed using the Jinja templating engine. Recall that we defined the error `message` in the beginning of the code.
 
 <br>
 
@@ -167,7 +165,7 @@ The template is designed using HTML elements and leverages Jinja's template synt
 
 <br>
 
-## **`test_project.py`**
+## **`test_app.py`**
 <br>
 
 This Python file contains three test functions that can be executed using `pytest`. These functions are designed to test the functionality of the `check_string`, `check_city`, and `get_clothes_rec` functions by providing specific test cases.

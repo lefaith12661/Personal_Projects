@@ -1,5 +1,5 @@
-# import functions from project.py
-from project import check_string, check_city, get_clothes_rec
+# import functions from app.py
+from app import check_string, check_city, get_clothes_rec
 # import pytest to test ValueError cases
 import pytest
 
