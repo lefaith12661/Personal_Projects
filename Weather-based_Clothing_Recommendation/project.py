@@ -19,10 +19,10 @@ def create_app():
 
     # __name__ just refers to the name of the current file
     # Initialize the app
-    project = Flask(__name__)
+    app = Flask(__name__)
 
     # Ensure templates are auto-reloaded
-    project.config["TEMPLATES_AUTO_RELOAD"] = True
+    app.config["TEMPLATES_AUTO_RELOAD"] = True
 
     # get weather temp using API
     def get_temp(city):
@@ -76,12 +76,12 @@ def create_app():
             return "Shorts, tank tops, tube tops, dresses, and flip flops or open-toed shoes"
 
     # home page
-    @project.route("/")
+    @app.route("/")
     def home():
         return render_template("home.html")
 
     # show results
-    @project.route("/result", methods=["POST"])
+    @app.route("/result", methods=["POST"])
     def result():
         if request.method == "POST":
             message = "INVALID LOCATION"
@@ -113,6 +113,6 @@ def create_app():
     if __name__ == '__main__':
         main()
         # automatically reload on code changes, provides detailed error messages with stack traces
-        project.run(debug=True)
+        app.run(debug=True)
 
-    return project
+    return app
