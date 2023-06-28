@@ -12,6 +12,10 @@ I am a passionate self-taught developer who loves to dive into new technologies 
     - [Project Demo](https://www.youtube.com/watch?v=_W64huDytzk&ab_channel=FaithLe)
     - [Try out the app!](https://money-review-app.onrender.com)
 
+- **[Weather-based Clothing Recommendation](https://github.com/lefaith12661/Personal_Projects/tree/main/Weather-based_Clothing_Recommendation)**: A web-based application that utilizes HTML, CSS, Python, and a third-party API to offer users a tool that suggests suitable clothing based on the present weather conditions.
+    - [Project Demo](https://www.youtube.com/watch?v=MZjEY1ef28U&ab_channel=FaithLe)
+    - [Try out the app!](https://weather-based-clothing-recommendation-app.onrender.com)
+
 ## Getting Started
 
 To explore any of the projects, simply navigate to the corresponding project folder and follow the instructions provided in the project's README. Each project folder contains its own README with detailed information on setup, usage, and any additional resources.
