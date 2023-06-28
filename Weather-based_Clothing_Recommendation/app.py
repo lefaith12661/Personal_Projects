@@ -6,6 +6,13 @@ import requests
 import re
 
 def create_app():
+    # __name__ just refers to the name of the current file
+    # Initialize the app
+    app = Flask(__name__)
+
+    # Ensure templates are auto-reloaded
+    app.config["TEMPLATES_AUTO_RELOAD"] = True
+
     # Load environment variables from .env file to set the environment FLASK_APP=project.py
     load_dotenv()
 
@@ -16,13 +23,6 @@ def create_app():
         home()
         result()
         get_clothes_rec()
-
-    # __name__ just refers to the name of the current file
-    # Initialize the app
-    app = Flask(__name__)
-
-    # Ensure templates are auto-reloaded
-    app.config["TEMPLATES_AUTO_RELOAD"] = True
 
     # get weather temp using API
     def get_temp(city):
