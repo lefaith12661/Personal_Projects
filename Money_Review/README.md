@@ -27,12 +27,17 @@ This project was inspired by the weekly spending review my roommate and I conduc
 
 ### FEATURES
 ------------
-* Ability to register/log in so that data will not get mixed up with other users
-* Ability to add budget goals to each of the spending category
-* Ability to remove items from Summary Page
-* Ability to input unlimited spending items while seeing the total amount of each category populates
-* A Summary Page that shows a simple yet detailed summary of each spending item that users inputed with a total budget and total amount spent on the top left corner
+* User Authentication: Implemented user registration and login functionality to ensure secure access to personal spending data
 
+* Error Handling: The application includes robust error handling to handle cases where the API request fails or the user enters an invalid location, ensuring a smooth and error-free user experience
+
+* Dynamic Spending Tracking: Users can input unlimited spending items while the application dynamically calculates and updates the total amount for each spending category
+
+* Comprehensive Summary: A user-friendly Summary Page displays detailed information on each spending item, including the total budget and amount spent, conveniently located in the top left corner for quick reference
+
+* Category-Based Budget Goals: Users can set specific budget goals for each spending category to effectively manage their finances and track progress
+
+* Item Removal: Provided the ability to remove unwanted spending items from the Summary Page for easy customization and organization
 <br>
 
 ### EXECUTING PROGRAM

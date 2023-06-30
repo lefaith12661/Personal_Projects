@@ -27,15 +27,15 @@ Weather-based Clothing Recommendation is a web-based application that utilizes H
 ### FEATURES
 ------------
 
-* Location-based Clothing Suggestions: Users can input their city, and the application will retrieve weather data from the API to provide personalized clothing recommendations based on the current weather conditions.
+* Location-based Clothing Suggestions: Users can input their city, and the application will retrieve weather data from the API to provide personalized clothing recommendations based on the current weather conditions
 
-* Real-time Weather Data: The application utilizes a third-party API to fetch real-time weather data, ensuring accurate and up-to-date information for clothing recommendations.
+* Real-time Weather Data: The application utilizes a third-party API to fetch real-time weather data, ensuring accurate and up-to-date information for clothing recommendations
 
-* Easy-to-Use Interface: The user interface is intuitive and user-friendly, allowing users to quickly input their location and receive instant clothing suggestions.
+* Easy-to-Use Interface: The user interface is intuitive and user-friendly, allowing users to quickly input their location and receive instant clothing suggestions
 
-* Error Handling: The application includes robust error handling to handle cases where the API request fails or the user enters an invalid location, ensuring a smooth and error-free user experience.
+* Error Handling: The application includes robust error handling to handle cases where the API request fails or the user enters an invalid location, ensuring a smooth and error-free user experience
 
-* Documentation and Tests: The project includes comprehensive documentation and unit tests, ensuring code quality, maintainability, and ease of future development.
+* Documentation and Tests: The project includes comprehensive documentation and unit tests, ensuring code quality, maintainability, and ease of future development
 
 <br>
 
