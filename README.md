@@ -3,12 +3,10 @@
 Welcome to my personal projects repository! This repository showcases various projects that I have built to enhance my programming skills and explore different technologies.
 
 ## About Me
----
 
 I am a passionate developer who loves to dive into new technologies and expand my knowledge in the world of programming. This repository serves as a portfolio of my work, demonstrating my growth and the projects I have completed during my journey.
 
 ## Project List
----
 
 <p float="right">
     <img align="right"src="Money_Review.gif" width="290"/>
@@ -29,12 +27,10 @@ I am a passionate developer who loves to dive into new technologies and expand m
     - [Try out the app!](https://weather-based-clothing-recommendation-app.onrender.com)
 
 ## Getting Started
----
 
 To explore any of the projects, simply navigate to the corresponding project folder and follow the instructions provided in the project's README. Each project folder contains its own README with detailed information on setup, usage, and any additional resources.
 
 ## Contact
----
 
 Feel free to reach out to me if you have any questions or feedback. You can contact me via email at [lechau@umich.edu](mailto:lechau@umich.edu) or connect with me on [LinkedIn](https://www.linkedin.com/in/faithle/).
 
