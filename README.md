@@ -1,10 +1,10 @@
 # Personal Projects
 
-Welcome to my personal projects repository! As a self-taught developer, this repository showcases various projects that I have built to enhance my programming skills and explore different technologies.
+Welcome to my personal projects repository! This repository showcases various projects that I have built to enhance my programming skills and explore different technologies.
 
 # About Me
 
-I am a passionate self-taught developer who loves to dive into new technologies and expand my knowledge in the world of programming. This repository serves as a portfolio of my work, demonstrating my growth and the projects I have completed during my journey.
+I am a passionate developer who loves to dive into new technologies and expand my knowledge in the world of programming. This repository serves as a portfolio of my work, demonstrating my growth and the projects I have completed during my journey.
 
 ## Project List
 
@@ -16,7 +16,7 @@ I am a passionate self-taught developer who loves to dive into new technologies 
     - [Project Demo](https://www.youtube.com/watch?v=MZjEY1ef28U&ab_channel=FaithLe)
     - [Try out the app!](https://weather-based-clothing-recommendation-app.onrender.com)
 
-## Getting Started
+## Getting Startedd
 
 To explore any of the projects, simply navigate to the corresponding project folder and follow the instructions provided in the project's README. Each project folder contains its own README with detailed information on setup, usage, and any additional resources.
 
