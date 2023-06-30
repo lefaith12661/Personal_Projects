@@ -11,7 +11,7 @@ I am a passionate developer who loves to dive into new technologies and expand m
 ---
 
 <p float="right">
-    <img align="right"src="Money_Review.gif" width="280"/>
+    <img align="right"src="Money_Review.gif" width="300"/>
 </p>
 
 - **[Money Review](https://github.com/lefaith12661/Personal_Projects/tree/main/Money_Review)**: A web-based application that combines HTML, CSS, JavaScript, Python, and SQL to provide users with a tool for calculating and managing their weekly spendings in a centralized platform.
@@ -21,7 +21,7 @@ I am a passionate developer who loves to dive into new technologies and expand m
 <br>
 
 <p float="right">
-    <img align="right"src="Weather.gif" width="280"/>
+    <img align="right"src="Weather.gif" width="300"/>
 </p>
 
 - **[Weather-based Clothing Recommendation](https://github.com/lefaith12661/Personal_Projects/tree/main/Weather-based_Clothing_Recommendation)**: A web-based application that utilizes HTML, CSS, Python, and a third-party API to offer users a tool that suggests suitable clothing based on the present weather conditions.
